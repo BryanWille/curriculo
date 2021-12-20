@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+}
+
+
+/* =========== APRESENTAÇÂO =========== */
+
+#apresentacao h2 {
+    text-align: center;
+}
+
+#apresentacao {
+    background-color: black;
+    color: white;
+}
+
+#apr-box-1 {
+    padding: 30px 5vw;
+    display: grid;
+    justify-items: center;
+
+    grid-template-columns: 2fr 3fr;
+}
+
+#apr-grid-img {
+    display: inline;
+    margin: auto;
+}
+
+#apr-grid-img > img {
+    width: auto;
+    height: 40vh;
+    border-radius: 20px;
+
+}
+
+
+/* =========== MEDIA QUERIE =========== */
+
+@media (min-width: 1260px) { /* Desktop ou Notebook */
+
+}
+
+@media (max-width:  1259px){
+    #apr-img img {
+        width: 20vw;
+        height: auto;
+    }   
+
+    #apr-box-1 {    
+        grid-template-columns: 1fr 4fr;
+    }
+}
+
+@media(max-width: 989px) { /* Celular ou Tablet */
+
+    /* ===== APRESENTAÇÂO ===== */
+
+    #apr-grid-2img img {
+        height: auto;
+        width: 80vw;
+    }
+    #apr-box-1{
+        padding: 30px 50px;
+        grid-template-columns: 1fr;
+    }
+
+
+}

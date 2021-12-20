@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,55 +9,74 @@
     <!-- Reset -->
     <link rel="stylesheet" href="css/reset.css">
 
+    <!-- Variables -->
+    <link rel="stylesheet" href="css/variables.css">
 
     <!-- BootStrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
 
 
     <title>Currículo: Bryan Wille</title>
 </head>
+
 <body>
     <header>
         <h1>Bryan Wille</h1>
     </header>
     <main>
         <section id="apresentacao">
-            <h2>
-                Apresentação
-            </h2>
-            <article id="apr-texto">
-                <h3>
-                    Quem sou eu...
-                </h3>
-                <p>
-                    Estudante de Ciências da
-                    Computação, possuo experiência nas
-                    áreas de design, criação e edição de
-                    conteúdo.
-                </p>
-                <p>
-                    Atualmente estou procurando por
-                    um estágio que seja desafiador e
-                    com possibilidade de efetivação,
-                    pois busco me dedicar e aperfeiçoar
-                    nas áreas de desenvolvimento web
-                    e/ou back-end.
-                </p>    
-            </article>
-            
-            <article id="apr-contato">
-                <h3>
-                    Contato
-                </h3>
-                <p>
-                    Você pode me contatar pelos seguintes canais:
-                </p>
-                <p>
-                    (31) 9 9819-1723
-                </p>
-                <a href="mailto: bryanelliw@gmail.com"   target="_blank">bryanelliw@gmail.com</a> <br>
-                <a href="mailto: bryanwilles@gmail.com"   target="_blank">bryanwilles@outlook.com</a>
-            </article>
+
+            <div id="apr-box-1">
+
+                <div id="apr-grid-img">
+                    <img src="img/apr-code.jpg" alt="Imagem de uma linguagem de programação">
+                </div>
+
+                <div id="apr-grid-txt">
+
+                    <h2>Apresentação</h2>
+
+                    <article id="apr-texto">
+                        <h3>
+                            Quem sou eu...
+                        </h3>
+                        <p>
+                            Estudante de Ciências da
+                            Computação, possuo experiência nas
+                            áreas de design, criação e edição de
+                            conteúdo.
+                        </p>
+                        <p>
+                            Atualmente estou procurando por
+                            um estágio que seja desafiador e
+                            com possibilidade de efetivação,
+                            pois busco me dedicar e aperfeiçoar
+                            nas áreas de desenvolvimento web
+                            e/ou back-end.
+                        </p>
+                    </article>
+
+                    <article id="apr-contato">
+                        <h3>
+                            Contato
+                        </h3>
+                        <p>
+                            Você pode me contatar pelos seguintes canais:
+                        </p>
+                        <p>
+                            (31) 9 9819-1723
+                        </p>
+                        <a href="mailto: bryanelliw@gmail.com" target="_blank">bryanelliw@gmail.com</a> <br>
+                        <a href="mailto: bryanwilles@gmail.com" target="_blank">bryanwilles@outlook.com</a>
+                    </article>
+
+                </div>
+
+            </div>
 
             <article id="apr-costumes">
                 <h3>Tecnologias que tenho Costume</h3>
@@ -104,10 +124,10 @@
                 <h3>Funções:</h3>
                 <ul class="lista-generica">
                     <li>
-                            Como Design, trabalhava na elaboração de imagens de
-                            divulgação das marcas, como banners publicitários, um
-                            dos meus últimos projetos foram as ilustrações de um
-                            livro digital de criptomoedas.    
+                        Como Design, trabalhava na elaboração de imagens de
+                        divulgação das marcas, como banners publicitários, um
+                        dos meus últimos projetos foram as ilustrações de um
+                        livro digital de criptomoedas.
                     </li>
 
                     <li>
@@ -164,9 +184,11 @@
 
             <article id="presp">
                 <h3>PresP: Programa de Estatística e Probabilidade</h3>
-                <p>O PresP é uma calculadora para recursos de Estatística Descritiva, como Medidas de Posição, Dispersão e Distribuição</p>
-                <p>Desenvolvida por mim, e por <a href="#">Pedro Gabriel</a>, gastamos mais de 70 horas no projeto, desde o código back-end até a interface visual, utilizando apenas a linguagem
-                Java e sua framework Swing.</p>
+                <p>O PresP é uma calculadora para recursos de Estatística Descritiva, como Medidas de Posição, Dispersão
+                    e Distribuição</p>
+                <p>Desenvolvida por mim, e por <a href="#">Pedro Gabriel</a>, gastamos mais de 70 horas no projeto,
+                    desde o código back-end até a interface visual, utilizando apenas a linguagem
+                    Java e sua framework Swing.</p>
                 <!-- Colocar algumas imagens do funcionamento e também falar que fez com outro Colega -->
                 <ul id="lista-generica">
                     <li>Java</li>
@@ -174,11 +196,15 @@
                     <li>Interface Gráfica</li>
                 </ul>
             </article>
-        
+
             <article id="cloneEmge">
                 <h3>Aplicação Django</h3>
-                <p>Essa aplicação é um site inspirado no da faculdade EMGE, onde se tem uma lista de registro para alunos e <professores></p>
-                <p>Fizemos esse site como trabalho final de Desenvolvimento de Aplicações Web, onde tivemos que usar a linguagem Python para utilizar a framework Django, e as linguagens de Web, como HTML, CSS, JavaScript e framework BootStrap</p>
+                <p>Essa aplicação é um site inspirado no da faculdade EMGE, onde se tem uma lista de registro para
+                    alunos e <professores>
+                </p>
+                <p>Fizemos esse site como trabalho final de Desenvolvimento de Aplicações Web, onde tivemos que usar a
+                    linguagem Python para utilizar a framework Django, e as linguagens de Web, como HTML, CSS,
+                    JavaScript e framework BootStrap</p>
                 <!-- Colcoar o site da EMGE e explicar que fez como uma aplicação em django-->
                 <ul id="lista-generica">
                     <li>Django</li>
@@ -194,7 +220,8 @@
                 <h3>Outros Projetos</h3>
                 <div id="senna">
                     <h3>Homenagem: Ayrton Senna</h3>
-                    <p>Um site em homenagem a um dos maiores ídolos esportivos do Brasil, onde resumi os maiores feitos do Chefe.</p>
+                    <p>Um site em homenagem a um dos maiores ídolos esportivos do Brasil, onde resumi os maiores feitos
+                        do Chefe.</p>
                     <ul id="lista-generica">
                         <li>BootStrap</li>
                         <li>CSS</li>
@@ -206,7 +233,8 @@
 
                 <div id="currículo">
                     <h3>Site Currículo</h3>
-                    <p>Esse site foi criado como minha prova de Desenvolvimento Web, de fazer um site curriculo fantasioso, então resolvi escolher o Astrofísico Carl Sagan</p>
+                    <p>Esse site foi criado como minha prova de Desenvolvimento Web, de fazer um site curriculo
+                        fantasioso, então resolvi escolher o Astrofísico Carl Sagan</p>
                     <ul id="lista-generica">
                         <li>BootStrap</li>
                         <li>CSS</li>
@@ -217,7 +245,8 @@
 
                 <div id="durobot">
                     <h3>Duro: Um Bot de Discord</h3>
-                    <p>o DuroBot é um bot de discord, feito para aprender um pouco mais sobre JavaScript, e tinha algumas funções, como quando alguém colocava alguma música respondia</p>
+                    <p>O DuroBot é um bot de discord, feito para aprender um pouco mais sobre JavaScript, e tinha
+                        algumas funções, como quando alguém colocava alguma música respondia</p>
                     <ul id="lista-generica">
                         <li>JavaScript</li>
                         <li>Discord</li>
@@ -230,12 +259,19 @@
     </main>
 
 
-    
+
     <footer>
 
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <!-- Script BootStrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
