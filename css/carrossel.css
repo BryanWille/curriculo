@@ -1,6 +1,11 @@
 /* Slider */
+
+#carrossel{
+    margin: 0px 100px;
+}
+
 .slick-slide {
-    margin: 0px 20px;
+    margin: 0px 60px;
 }
 
 .logo-carousel {
@@ -83,10 +88,10 @@
         width: 1rem;
         height: 1rem;
     }
-}
-
-body {
-    background-color: #010101;
+    #carrossel{
+        margin: 0px 20px;
+    }
+    
 }
 
 .row {
